@@ -1,0 +1,68 @@
+Now listening on: https://localhost:7206
+Now listening on: http://localhost:5284
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\University 3\Розробка web-застосунків на базі ASP.Net\Лабораторна робота 4\MyApp5\MyApp5\
+Час: 09.10.2023 12:31:31
+Помилка: System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_SetCookie(StringValues value)
+   at Microsoft.AspNetCore.Http.ResponseCookies.Append(String key, String value, CookieOptions options)
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext() in D:\University 3\Розробка web-застосунків на базі ASP.Net\Лабораторна робота 4\MyApp5\MyApp5\Program.cs:line 80
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c__DisplayClass0_0.<<<Main>$>b__0>d.MoveNext() in D:\University 3\Розробка web-застосунків на базі ASP.Net\Лабораторна робота 4\MyApp5\MyApp5\Program.cs:line 14
+Request Path: /cookie
+Request Method: POST
+Form Data: value = 123
+Form Data: date = 2023-10-01
+
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection id "0HMU8L9VQ9AOV", Request id "0HMU8L9VQ9AOV:00000007": An unhandled exception was thrown by the application.
+Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+Now listening on: https://localhost:7206
+Now listening on: http://localhost:5284
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\University 3\Розробка web-застосунків на базі ASP.Net\Лабораторна робота 4\MyApp5\MyApp5\
+Час: 09.10.2023 12:33:30
+Помилка: System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_SetCookie(StringValues value)
+   at Microsoft.AspNetCore.Http.ResponseCookies.Append(String key, String value, CookieOptions options)
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext() in D:\University 3\Розробка web-застосунків на базі ASP.Net\Лабораторна робота 4\MyApp5\MyApp5\Program.cs:line 80
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c__DisplayClass0_0.<<<Main>$>b__0>d.MoveNext() in D:\University 3\Розробка web-застосунків на базі ASP.Net\Лабораторна робота 4\MyApp5\MyApp5\Program.cs:line 14
+Request Path: /cookie
+Request Method: POST
+Form Data: value = 42
+Form Data: date = 2023-10-09
+
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection id "0HMU8LB49NE5S", Request id "0HMU8LB49NE5S:00000007": An unhandled exception was thrown by the application.
+Час: 09.10.2023 12:33:34
+Помилка: System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_SetCookie(StringValues value)
+   at Microsoft.AspNetCore.Http.ResponseCookies.Append(String key, String value, CookieOptions options)
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext() in D:\University 3\Розробка web-застосунків на базі ASP.Net\Лабораторна робота 4\MyApp5\MyApp5\Program.cs:line 80
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c__DisplayClass0_0.<<<Main>$>b__0>d.MoveNext() in D:\University 3\Розробка web-застосунків на базі ASP.Net\Лабораторна робота 4\MyApp5\MyApp5\Program.cs:line 14
+Request Path: /cookie
+Request Method: POST
+Form Data: value = 42
+Form Data: date = 2023-10-09
+
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection id "0HMU8LB49NE5S", Request id "0HMU8LB49NE5S:00000009": An unhandled exception was thrown by the application.
+Now listening on: https://localhost:7206
+Now listening on: http://localhost:5284
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\University 3\Розробка web-застосунків на базі ASP.Net\Лабораторна робота 4\MyApp5\MyApp5\
+Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
